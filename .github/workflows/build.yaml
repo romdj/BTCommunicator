@@ -1,0 +1,21 @@
+name: BT Communicator CI
+
+on: 
+  push:
+    branches:
+      - main
+      - dev
+      - staging
+  pull_request:
+    branches: 
+      - main
+      - dev
+      - staging
+      - testing
+
+jobs:
+  app:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Build Android App
+      uses: sparkfabrik/android-build-action@v1.2.0
