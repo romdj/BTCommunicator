@@ -1,4 +1,4 @@
-package com.example.btcommunicator.ui.dashboard
+package com.example.btcommunicator.ui.team
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -9,7 +9,7 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import com.example.btcommunicator.databinding.FragmentTeamBinding
 
-class DashboardFragment : Fragment() {
+class TeamFragment : Fragment() {
     private var _binding: FragmentTeamBinding? = null
 
     // This property is only valid between onCreateView and
@@ -22,7 +22,7 @@ class DashboardFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View {
         val dashboardViewModel =
-            ViewModelProvider(this).get(DashboardViewModel::class.java)
+            ViewModelProvider(this).get(TeamViewModel::class.java)
 
         _binding = FragmentTeamBinding.inflate(inflater, container, false)
         val root: View = binding.root

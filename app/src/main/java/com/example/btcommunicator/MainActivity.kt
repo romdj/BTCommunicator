@@ -12,7 +12,6 @@ import androidx.navigation.ui.setupWithNavController
 import com.example.btcommunicator.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
-
     private lateinit var binding: ActivityMainBinding
     //private lateinit var mSession: MediaSession
 

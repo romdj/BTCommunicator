@@ -13,13 +13,13 @@
 
     <fragment
         android:id="@+id/navigation_team"
-        android:name="com.example.btcommunicator.ui.dashboard.DashboardFragment"
-        android:label="@string/title_dashboard"
+        android:name="com.example.btcommunicator.ui.team.TeamFragment"
+        android:label="@string/title_team"
         tools:layout="@layout/fragment_team" />
 
     <fragment
         android:id="@+id/navigation_map"
-        android:name="com.example.btcommunicator.ui.notifications.NotificationsFragment"
-        android:label="@string/title_notifications"
+        android:name="com.example.btcommunicator.ui.map.MapFragment"
+        android:label="@string/title_map"
         tools:layout="@layout/fragment_map" />
 </navigation>
